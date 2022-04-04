@@ -1,0 +1,15 @@
+SEED: 4 
+MODE: 'ver'
+
+TRAIN:
+  MODEL: 'LCNN_ARD'
+  LOSS: 'ELBO'
+
+DATA:
+  TRAIN_X: 'train_dev'
+  TRAIN_Y: 'train_dev.trn.txt'
+
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true

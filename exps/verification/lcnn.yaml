@@ -1,0 +1,16 @@
+SEED: 4 
+MODE: 'train'
+
+TRAIN:
+  MODEL: 'LCNN'
+  LOSS: 'CrossEntropy'
+
+DATA:
+  TRAIN_X: 'train_dev'
+  TRAIN_Y: 'train_dev.trn.txt'
+  LOADER: 'verification'
+
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true

@@ -1,0 +1,18 @@
+SEED: 4 
+MODE: 'recogniton'
+
+TRAIN:
+  MODEL: 'LCNN'
+  LOSS: 'CrossEntropy'
+  NUM_CLASS: 50 # update later
+  TIME: '' # changed
+  FETAURE: '' # changed
+
+DATA:
+  TRAIN_X: 'train_dev'
+  TRAIN_Y: 'train_dev.trn.txt'
+
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
